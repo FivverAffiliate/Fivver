@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #0f6cde;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: #ddd;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+section#fiverr-pro img {
+    content: url('https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/247067394/original/b707f10a2b37bb01ff3b21de3178c236ee44e2ec/professional-services.jpg');
+}
+
+section#sub-affiliates img {
+    content: url('https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/207092473/original/636e55b0d4877d4a55bd576df5d82b52e328166b/affiliate-program.jpg');
+}
+
+section#logo-maker img {
+    content: url('https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/191092318/original/f02b2f176ec9d949bfa4de7063d8b05ac2dcf8e7/logo-maker.jpg');
+}
+
+section#marketplace img {
+    content: url('https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/123456789/original/f5ecfabc60db4d8f88ac9f196e123451e980f798/marketplace.jpg');
+}
+
+footer {
+    background: #0f6cde;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
